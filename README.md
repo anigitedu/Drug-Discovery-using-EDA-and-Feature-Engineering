@@ -83,3 +83,24 @@ Our project aims to compare the methods and best models
 out there to to predict the efficiency of a therapy in preventing
 the development of cancer cells caused by a deficiency in
 EGFR protein.
+
+EDA:
+![image](https://github.com/anigitedu/Drug-Discovery-using-EDA-and-Feature-Engineering/assets/88144988/e3878faa-6414-48ae-b664-e6d68c5889fe)
+
+Experiments and Results
+The following processing and predictors resulted in the following: 1. There are more number of active molecules than
+inactive molecules. This is calculated with the help of standard value.
+2. The ratio between molecular weight and its LogP for active
+and inactive molecules is somewhat same.
+3. The pIC50 value should be less than 6 for the molecules to
+be inactive.
+4. The distribution of molecular weight and its LogP for both
+inactive and active molecules is same. But they have different
+medians. Inactive molecules have higher median which is a
+threat.
+5. The number of hydrogen bond donors are same for both
+active and inactive class whereas there are more hydrogen
+bond donors are higher for active class.
+
+![image](https://github.com/anigitedu/Drug-Discovery-using-EDA-and-Feature-Engineering/assets/88144988/7d2cbdc7-1ba8-478e-9fab-8aaab6d6ceb8)
+

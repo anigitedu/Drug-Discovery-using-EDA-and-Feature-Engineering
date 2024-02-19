@@ -1,3 +1,40 @@
+Problem Statement:
+
+Based on specific factors, the effectiveness of each medicine
+in preventing protein development is evaluated. In this experiment, we employed the Inhibitory Concentration (IC 50)
+value as a marker for analyzing the bioactivity of a specific
+medicine. The IC 50 value is a quantitative measure of how
+much a drug is needed to block a given biological process
+(in this case, multiplication of the EGFR protein) by 50percent. To obtain the canonical notation of a drug’s molecular
+formulae, we use the ChEMBL dataset, a chemical library of
+bioactivity molecules.
+The EGFR constantly ”grows” in cases of lung cancer that
+tests positive for the EFGR gene due to a gene mutation or
+malfunction. As a result, cells proliferate out of control the
+root of which is cancer. Chemotherapy is one of the best
+ways to treat cancer, but it also has some negative effects,
+like fatigue, hair loss, and changes in appetite. Therefore,
+many medications are being investigated to see if they can
+prevent the EGFR protein from proliferating as an alternative
+to chemotherapy.
+Feature selection helps to reduce the dimensionality of the
+problem, making it easier to work with, and can improve the
+performance and generalisation ability of machine learning
+models by reducing the risk of overfitting. In this case there
+are a lot of features which determine the specifications of a
+particular molecule which makes it difficult to predict which
+characteristic might affect a cell from cancer. It plays an important tool for improving the efficiency and effectiveness of
+machine learning models, especially in problems with highdimensional input data. Training models on all the available
+characteristics may be computationally expensive and timeconsuming when working with high-dimensional data. We
+may decrease the computational demands and increase the effectiveness of model training by just choosing the most crucial
+characteristics. Even when some data is absent, we can still
+provide good predictions by choosing the most useful characteristics. A lot of data is present in the world regarding the
+particular protein molecule present in every species of living
+organisms. It is quite difficult to extract the required targeted
+molecule which might affect the living being’s conditions of
+survival.
+
+
 
 The methodology for this project was divided into four parts:-
 1. Collection of Data.
